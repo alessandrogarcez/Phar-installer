@@ -23,8 +23,6 @@ function main($argc, $argv) {
 			break;
 	}
 	
-	chmod("/Users/alessandrogarcez/Sites/Phar-installer/app.php", 0755);
-	
 }
 
 function showHelp() {

@@ -49,6 +49,8 @@ function install($package, $force) {
 		deleteFiles(array('defines.inc.php', 'install.php'));
 		$version_file = INSTALLATIONPATH . '/version';
 		createFile($version_file, str_replace('.phar', '', encrypt($package)));
+		$app_file = INSTALLATIONPATH.'/app';
+		chmod($app_file, 0755);
 		echo $package . " installed.\n";
 		
 	} else {
