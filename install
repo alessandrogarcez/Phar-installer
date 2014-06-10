@@ -46,7 +46,7 @@ function install($package, $force) {
 		createInstallationPath(INSTALLATIONPATH);
 		$phar = new Phar($package);
 		$phar->extractTo(INSTALLATIONPATH, null, true);
-		deleteFiles(array('defines.inc.php', 'install.php'));
+		deleteFiles(array('defines.inc.php', 'install'));
 		$version_file = INSTALLATIONPATH . '/version';
 		createFile($version_file, str_replace('.phar', '', encrypt($package)));
 		$app_file = INSTALLATIONPATH.'/app';
