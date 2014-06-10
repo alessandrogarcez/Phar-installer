@@ -13,11 +13,11 @@ $patch=0;
 $package=1;
 
 //Application name
-$name='template';
+$name='Phar-installer';
 //Path where application will be installed
-$installpath = '~/Sites/descompress/template';
+$installpath = '/Users/alessandrogarcez/Sites/descompress/Phar-installer';
 //Files or directories to ignore
-$ignored_files = 'cgi-bin|.|..|.DS_Store|.git|nbproject|make.php';
+$ignored_files = 'cgi-bin|.|..|.DS_Store|.git|nbproject|make.php|LICENSE|README.md';
 //File name or fullpath of the files that must be ignored.
 $confs = '';
 

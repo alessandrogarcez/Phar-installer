@@ -50,7 +50,6 @@ function generateInstaller() {
 
 	if (existsSource()) {
 		echo "Package already exists, please update the version.\n	";
-
 		return false;
 	}
 
