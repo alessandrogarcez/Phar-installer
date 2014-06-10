@@ -77,7 +77,7 @@ function createPharFile() {
 
 	packageFiles($phar, PROJECTFOLDER);
 
-	$phar->setStub($phar->createDefaultStub("install.php"));
+	$phar->setStub($phar->createDefaultStub("install"));
 	
 	echo "####################\ncreated ".SOURCEPATH."\n####################\n";
 
