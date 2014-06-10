@@ -17,7 +17,7 @@ $name='Phar-installer';
 //Path where application will be installed
 $installpath = '/Users/alessandrogarcez/Sites/descompress/Phar-installer';
 //Files or directories to ignore
-$ignored_files = 'cgi-bin|.|..|.DS_Store|.git|nbproject|make.php|LICENSE|README.md';
+$ignored_files = 'cgi-bin|.|..|.DS_Store|.git|nbproject|make|LICENSE|README.md|.gitignore';
 //File name or fullpath of the files that must be ignored.
 $confs = '';
 
