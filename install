@@ -47,7 +47,7 @@ function install($package, $force) {
 		$phar = new Phar($package);
 		$phar->extractTo(INSTALLATIONPATH, null, true);
 		deleteFiles(array('defines.inc.php', 'install'));
-		$version_file = INSTALLATIONPATH . '/version';
+		$version_file = INSTALLATIONPATH . '/.version';
 		createFile($version_file, str_replace('.phar', '', encrypt($package)));
 		$app_file = INSTALLATIONPATH.'/app';
 		chmod($app_file, 0755);

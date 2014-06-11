@@ -39,7 +39,7 @@ function showHelp() {
 
 function showVersion() {
 
-	$my_file = 'version';
+	$my_file = '.version';
 	if (is_file($my_file)) {
 		$handle = fopen($my_file, 'r');
 		$data = fread($handle, filesize($my_file));
