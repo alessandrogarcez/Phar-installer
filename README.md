@@ -10,7 +10,7 @@ Applying it in your project is very simple, it just needed copy some files to yo
 Step by step
 ----------------------
 1.	Download the sorce of Phar-installer
-2.	Copy the followinf files to your application's root dir
+2.	Copy the following files to your application's root dir
 	* app
 	* defines.inc.php
 	* install
@@ -24,8 +24,8 @@ Step by step
 	<code>./make installer</code>
 5.	The package will be generated in ~/BUILD/PHARS/
 6.	Go to path where is the package
-7.	Type teh following command to install:<br/>
-	<code>php package install</code> or <code>php package --help</code> to see the list of commands
+7.	Type the following command to install:<br/>
+	<code>php package-1.0.0.0.phar install</code> or <code>php package-1.0.0.0.phar --help</code> to see the list of commands
 
 Now your application is installed in path that was configured in defines.inc.php
 
