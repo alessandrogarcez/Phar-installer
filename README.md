@@ -7,8 +7,10 @@ Phar-installer makes easy package, deploy and install your PHP application.
 
 Applying it in your project is very simple, it just needed copy some files to your application and configure it.
 
-Step by step
-----------------------
+##Step by step##
+
+###Packaging and installing###
+
 1.	Download the sorce of Phar-installer
 2.	Copy the following files to your application's root dir
 	* app
@@ -29,10 +31,16 @@ Step by step
 
 Now your application is installed in path that was configured in defines.inc.php
 
+###Consulting installed version###
+*	Go into your installed application's path and type:
+	<code>./app --version</code> or <code>./app --help</code> to see the list of commands.
+
+
 Requirements
 ---------------------
 *	PHP 5.2 or newer as the PHP documemtation ( http://www.php.net/manual/en/phar.requirements.php )
 *	To generate the package is necessary phar.readonly variable been off.
 	*	It's possible change it in php.ini	
+
 
 
