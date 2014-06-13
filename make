@@ -96,6 +96,7 @@ function existsSource() {
 function packageFiles($phar, $path = '.', $level = 0) {
 
 	$ignore = explode('|', IGNOREDFILES);
+	array_push($ignore, 'make');
 	$confs = explode('|', CONFS);
 	$dh = opendir($path);
 
