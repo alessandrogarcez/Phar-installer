@@ -51,7 +51,7 @@ function install($package, $force) {
 		createFile($version_file, str_replace('.phar', '', encrypt($package)));
 		$app_file = INSTALLATIONPATH.'/app';
 		chmod($app_file, 0755);
-		echo $package . " installed.\n";
+		echo $package . " installed in ".INSTALLATIONPATH.".\n";
 		
 	} else {
 		echo "Is not possible install because current installed version is the same or newer than that your trying to install. The package version have to be newer than installed.\n";
