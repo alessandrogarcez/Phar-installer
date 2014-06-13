@@ -36,7 +36,7 @@ function main($argc, $argv) {
 function showHelp() {
 
 	echo '
-	./make.php [option]
+	./make [option]
 	
 	installer	to build a package for installation.
 	--help		show help

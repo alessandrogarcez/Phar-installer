@@ -30,7 +30,7 @@ function main($argc, $argv) {
 function showHelp() {
 
 	echo '
-	pachage.phar [option]
+	php pachage.phar [option]
 	
 	install			Install the phar package.
 	--force, -f Force the installation.

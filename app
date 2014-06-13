@@ -29,7 +29,7 @@ function showHelp() {
 
 	echo '
 	This call must be made after installation of the app.
-	./app.php [option]
+	./app [option]
 	
 	--version	Currently installed version.
 	--help		show help
