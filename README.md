@@ -39,7 +39,7 @@ Now your application is installed in path that was configured in defines.inc.php
 Requirements
 ---------------------
 *	PHP 5.2 or newer as the PHP documemtation ( http://www.php.net/manual/en/phar.requirements.php )
-*	To generate the package is necessary phar.readonly variable been off.
+*	To generate the package is necessary phar.readonly variable be off.
 	*	It's possible change it in php.ini	
 
 
