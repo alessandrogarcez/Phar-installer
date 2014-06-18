@@ -40,7 +40,8 @@ Requirements
 ---------------------
 *	PHP 5.2 or newer as the PHP documemtation ( http://www.php.net/manual/en/phar.requirements.php )
 *	To generate the package is necessary phar.readonly variable be off.
-	*	It's possible change it in php.ini	
+	*	It's possible change it in php.ini
+	*	It possible type <code>php --ri Phar</code> to get information about it Phar variables.
 
 
 
