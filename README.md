@@ -42,6 +42,10 @@ Requirements
 *	To generate the package is necessary phar.readonly variable be off.
 	*	It's possible change it in php.ini
 	*	It possible type <code>php --ri Phar</code> to get information about it Phar variables.
+	
+Problems
+---------------------
+*	I got some problems whe I've runned the command <code>./make installer</code>. I received the error <code>Call to undefined function posix_getuid() in /home/maubrent/imageimporter/make on line 68</code>. I've solved it executing <code>yum install php-process</code>
 
 
 
